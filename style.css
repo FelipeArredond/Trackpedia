@@ -1,0 +1,442 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+background: #000000;
+color: #ffffff;
+background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e51818' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+font-size: 16px;
+font-family: 'Oswald', sans-serif;
+
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul{
+list-style: none;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/*Nvigation*/
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav-brand{
+    width: 50px;
+}
+/*Nav UL*/
+.nav-main ul{
+display: flex;
+}
+
+.nav-main ul.nav-menu li{
+    padding: 10px;
+}
+
+.nav-main ul .nav-menu li a{
+    padding: 20px;
+
+}
+
+.nav-main ul.nav-menu li a:hover{
+ border-bottom: 2px solid #ffffff;
+}
+
+.nav-main ul.nav-menu-right{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    font-size: 1.5rem;
+    display:none
+    
+}
+
+
+
+/*SHOWCASE*/
+
+hr{
+    margin: 10px 0px;
+}
+
+
+.showcase{
+width: 100%;
+height: 550px;
+background: url(img/pexels-benjamin-suter-3733269.jpg) no-repeat center center/cover;
+padding-bottom: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    margin: 10px 0px;
+}
+.btn:hover{
+    opacity: .7;
+}
+
+.showcase h2,
+.showcase p{
+margin-bottom: 10px;
+}
+
+.Contact{
+    flex-direction: column;
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+.correo-index{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    margin: 10px 0px;
+}
+
+.form-text{
+padding: 50px;
+border: 2px;
+
+}
+
+.field{
+    padding: 90px;
+}
+
+
+
+/*TRACKS NAV*/
+
+
+.btn-tracks{
+    color: #ffffff;
+    font-size: 45px;
+    padding: 15px;
+}
+
+
+
+.nav-tracks{
+    height: 107px;
+    background: url('./img/trackslogo.jpg') no-repeat center center/cover;
+}
+
+
+
+.inicio-back{
+    font-size: 14px;
+    justify-content: space-between;
+    margin-left: 913px;
+    font-weight: bold;
+    color:#ffffff
+}
+.inicio-back:hover{
+    opacity: .7 ;
+}
+
+/*AUTODROMO DE TOCANCIPA IMG*/
+
+.track-1{
+    
+    display: flex;
+    
+    
+}
+
+.tocancipa-edit{
+    width: 500px;
+    height: 300px;
+    margin: 15px;
+    
+}
+
+.tittle-t1{
+    margin-top: 15px;
+    margin-left: 17px;
+    font-size: 30px;
+    
+}
+
+.t1-h4{
+    margin-top: 12px;
+}
+
+.link-t1{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    margin: 10px 15px;
+}
+
+/*XRP*/
+
+.track-2{
+    
+    display: flex;
+    
+    
+}
+
+.XRP-edit{
+    width: 500px;
+    height: 300px;
+    margin: 15px;
+    
+}
+
+.tittle-t2{
+    margin-top: 15px;
+    margin-left: 17px;
+    font-size: 30px;
+    
+}
+
+.t2-h4{
+    margin-top: 12px;
+}
+
+.link-t2{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    margin: 10px 15px;
+}
+
+/*KARTODROMO MILAN*/
+
+.track-3{
+    
+    display: flex;
+    
+    
+}
+
+.MILAN-edit{
+    width: 500px;
+    height: 300px;
+    margin: 15px;
+    
+}
+
+.tittle-t3{
+    margin-top: 15px;
+    margin-left: 17px;
+    font-size: 30px;
+    
+}
+
+.t3-h4{
+    margin-top: 12px;
+}
+
+.link-t3{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    margin: 10px 15px;
+}
+
+
+
+
+
+
+/*RIDING TIPS NAV*/
+
+.btn-riding{
+    font-size: 45px;
+    padding: 15px;
+    
+}
+
+
+.inicio-riding{
+    font-size: 14px;
+    margin-left: 900px;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.inicio-riding:hover{
+    opacity: .7;
+}
+
+.nav-riding{
+    background: url('./img/trackslogo.jpg') no-repeat center center/cover ;
+    height: 107px;
+
+}
+
+
+/*NEWS NAV*/
+
+.btn-news{
+font-size: 45px;
+padding: 15px;
+}
+
+.inicio-news{
+    font-size: 14px;
+    margin-left: 1000px;
+    
+}
+
+.inicio-news:hover{
+    opacity: .7;
+}
+
+.nav-news{
+    background: url('./img/trackslogo.jpg') no-repeat center center/cover ;
+    height: 107px;
+}
+
+/*READ MORE*/
+
+.btn-read{
+    font-size: 45px;
+    padding: 15px;
+    }
+    
+    .inicio-read{
+        font-size: 14px;
+        margin-left: 900px;
+        
+    }
+    
+    .inicio-read:hover{
+        opacity: .7;
+    }
+    
+    .nav-read{
+        background: url('./img/trackslogo.jpg') no-repeat center center/cover ;
+        height: 107px;
+    }
+
+
+    /*LINKS SOCIAL*/
+.social{
+    margin: 50px;
+}
+
+.social p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a{
+    margin: 0 30px;
+
+}
+
+.links a i {
+ font-size: 3rem;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 700px){
+
+    .menu-btn{
+        display: block;
+    }
+
+     .nav-main ul.nav-menu{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #000000;
+    height: 100%;
+    padding: 30px;
+    opacity: .9;
+    transform: translateX(-400px);
+    transition: transform .5s ease-in-out;
+     }
+     
+     .nav-main ul.nav-menu.show {
+        
+        transform: translateX(-20px);
+         
+     }
+
+     .nav-main ul.nav-menu li {
+         padding: 20px;
+         border-bottom: #ccc solid 1px;
+         font-size: 14px;
+     }
+}
+
+
+
+  
+
+
+
+
